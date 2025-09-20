@@ -1,0 +1,43 @@
+13:30:15.104 [main] ERROR testCases.TC_001AccountRegisterationTest - Test Failed..
+13:30:15.120 [main] DEBUG testCases.TC_001AccountRegisterationTest - debug logs...
+13:30:18.983 [main] INFO  testCases.TC_002LoginTest - ********* Starting TC_002LoginTest ***********
+13:30:18.985 [main] INFO  testCases.TC_002LoginTest - ** Click on My Account link **
+13:30:19.999 [main] INFO  testCases.TC_002LoginTest - ** Click on Login link **
+13:30:20.837 [main] INFO  testCases.TC_002LoginTest - ** Entering Email: pa123@gmail.com **
+13:30:21.205 [main] INFO  testCases.TC_002LoginTest - ** Entering Password **
+13:30:21.438 [main] INFO  testCases.TC_002LoginTest - ** Clicking Login button **
+13:30:24.621 [main] INFO  testCases.TC_002LoginTest - ** Verifying My Account Page existence **
+13:30:24.904 [main] INFO  testCases.TC_002LoginTest - ** Login Test Passed **
+13:30:24.904 [main] INFO  testCases.TC_002LoginTest - ******** finished TC_002LoginTest
+13:38:15.602 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Admin\eclipse-workspace\Opencart101\Grouping.xml"
+13:38:31.923 [main] INFO  testCases.TC_001AccountRegisterationTest - ********* Starting TC_001AccountRegisterationTest *******
+13:38:32.006 [main] INFO  testCases.TC_001AccountRegisterationTest - ** Clicking on My Account link **
+13:38:32.200 [main] INFO  testCases.TC_001AccountRegisterationTest - Clicking on 'Register' link
+13:38:35.903 [main] INFO  testCases.TC_001AccountRegisterationTest - ** Providing Customer details**
+13:38:38.232 [main] DEBUG testCases.TC_001AccountRegisterationTest - Generated First Name: BOBBY
+13:38:38.233 [main] DEBUG testCases.TC_001AccountRegisterationTest - Generated Last Name: GOYETTE
+13:38:38.233 [main] DEBUG testCases.TC_001AccountRegisterationTest - Generated Email: elliot.bahringer@hotmail.com@gmail
+13:38:41.469 [main] INFO  testCases.TC_001AccountRegisterationTest - Selecting Newsletter subscription option
+13:38:41.801 [main] INFO  testCases.TC_001AccountRegisterationTest - Accepting Privacy Policy
+13:38:42.153 [main] INFO  testCases.TC_001AccountRegisterationTest - Clicking on Continue button
+13:38:42.615 [main] INFO  testCases.TC_001AccountRegisterationTest - Validating expected message...
+13:38:52.756 [main] DEBUG testCases.TC_001AccountRegisterationTest - Actual confirmation message: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Your Account Has Been Created!']"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7555f74303588d2533be1e691bb06d15, findElement {using=xpath, value=//h1[normalize-space()='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51385}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51385/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7555f74303588d2533be1e691bb06d15
+13:38:52.756 [main] ERROR testCases.TC_001AccountRegisterationTest - Test Failed..
+13:38:52.756 [main] DEBUG testCases.TC_001AccountRegisterationTest - debug logs...
+13:39:02.940 [main] INFO  testCases.TC_002LoginTest - ********* Starting TC_002LoginTest ***********
+13:39:02.951 [main] INFO  testCases.TC_002LoginTest - ** Click on My Account link **
+13:39:03.375 [main] INFO  testCases.TC_002LoginTest - ** Click on Login link **
+13:39:05.286 [main] INFO  testCases.TC_002LoginTest - ** Entering Email: pa123@gmail.com **
+13:39:06.404 [main] INFO  testCases.TC_002LoginTest - ** Entering Password **
+13:39:07.057 [main] INFO  testCases.TC_002LoginTest - ** Clicking Login button **
+13:39:08.655 [main] INFO  testCases.TC_002LoginTest - ** Verifying My Account Page existence **
+13:39:08.847 [main] INFO  testCases.TC_002LoginTest - ** Login Test Passed **
+13:39:08.847 [main] INFO  testCases.TC_002LoginTest - ******** finished TC_002LoginTest

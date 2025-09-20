@@ -1,0 +1,4 @@
+baseTest\ExtentReportManager.class
+testCases\TC_001AccountRegisterationTest.class
+baseTest\BaseClass.class
+testCases\TC_002LoginTest.class
